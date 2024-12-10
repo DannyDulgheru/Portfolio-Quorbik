@@ -32,3 +32,28 @@ Portfolio Quorbik is a simple and efficient CMS designed for managing and showca
    ```bash
    git clone https://github.com/DannyDulgheru/Portfolio-Quorbik.git
    cd Portfolio-Quorbik-main
+   
+2. **Set Up the Database:**
+
+Navigate to the db/ folder and ensure the SQLite database file is in place.
+If the database file is missing, create one using the schema provided in the project.
+
+3. **Configure the Project:**
+
+Edit the config.php file to update any necessary settings, such as database connection details or site configurations.
+
+4. **Deploy on Local Server:**
+
+Move the project folder to your server's root directory (e.g., htdocs for XAMPP).
+Start the server and navigate to http://localhost/Portfolio-Quorbik-main in your browser.
+Usage
+Admin Panel:
+
+Access the admin panel at http://localhost/Portfolio-Quorbik-main/admin.php.
+Log in with the default credentials (set in config.php or the database).
+Manage Videos:
+
+Add, update, reorder, or delete videos through the admin dashboard.
+View Portfolio:
+
+The portfolio will display on the main index.php page.
